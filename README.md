@@ -1,40 +1,43 @@
-# tagolym-ml
+## tagolym-ml
 
 config/
-├── args_opt.json         - optimized parameters
-├── args.json             - preprocessing/training parameters
-├── config.py             - configuration setup
-├── run_id.txt            - run id of the last model training
-├── test_metrics.json     - model performance on test split
-├── train_metrics.json    - model performance on train split
-└── val_metrics.json      - model performance on validation split
+├── args_opt.json - optimized parameters
+├── args.json - preprocessing/training parameters
+├── config.py - configuration setup
+├── run_id.txt - run id of the last model training
+├── test_metrics.json - model performance on test split
+├── train_metrics.json - model performance on train split
+└── val_metrics.json - model performance on validation split
 
 credentials/
-└── bigquery-key.json     - keys and passwords
+└── bigquery-key.json - keys and passwords
 
 data/
-└── labeled_data.json     - data used in the project
+└── labeled_data.json - data used in the project
 
-stores/model/             - MLflow experiments
+stores/model/
+└── MLflow experiments
 
 tagolym/
-├── data.py               - data processing components
-├── evaluate.py           - evaluation components
-├── main.py               - training/optimization pipelines
-├── predict.py            - inference components
-├── train.py              - training components
-└── utils.py              - supplementary utilities
+├── data.py - data processing components
+├── evaluate.py - evaluation components
+├── main.py - training/optimization pipelines
+├── predict.py - inference components
+├── train.py - training components
+└── utils.py - supplementary utilities
 
-tagolym.egg-info/         - project metadata
+tagolym.egg-info/
 
-venv/                     - virtual environment
+project metadata
+venv/
 
-.gitignore                - files/folders that git will ignore
+virtual environment
+.gitignore - files/folders that git will ignore
 
-LICENSE                   - project license
+LICENSE - project license
 
-README.md                 - longform description of the project
+README.md - longform description of the project
 
-requirements.txt          - package dependencies
+requirements.txt - package dependencies
 
-setup.py                  - code packaging
+setup.py - code packaging
